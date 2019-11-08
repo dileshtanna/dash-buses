@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="10dp"
+        android:text="Search Buses Sftarting From"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/bus_stop_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/mira_road"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="MiraRoad"
+                android:textColor="@color/darkAccent"
+                android:textColorLink="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/thane"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Thane"
+                android:textColor="@color/darkAccent"
+                android:textColorLink="@android:color/white" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/search_buses"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_margin="27dp"
+        android:background="@color/darkAccent"
+        android:text="SEARCH BUSES"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

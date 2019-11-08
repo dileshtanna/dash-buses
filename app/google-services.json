@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "6550888148",
+    "firebase_url": "https://dash-buses.firebaseio.com",
+    "project_id": "dash-buses",
+    "storage_bucket": "dash-buses.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6550888148:android:68f0bbf17d9d0657f26541",
+        "android_client_info": {
+          "package_name": "com.example.dashbuses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6550888148-s1kvdubkfr5021akr10f23idknb9j9cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9RIjw1f09yFrdkwNcP6ApJZzrJNhUs78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6550888148-s1kvdubkfr5021akr10f23idknb9j9cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
